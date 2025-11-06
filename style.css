@@ -1,0 +1,57 @@
+/* Minimal custom styles - using Bootstrap classes for responsiveness */
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.clickable {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.clickable:hover {
+  opacity: 0.8;
+}
+
+#detailImage {
+  max-height: 600px;
+  object-fit: contain;
+  width: 100%;
+}
+
+#detailBody {
+  transition: background-color 0.5s ease;
+  min-height: 100vh;
+}
+
+#imageModal .modal-body img {
+  max-height: 80vh;
+  object-fit: contain;
+}
